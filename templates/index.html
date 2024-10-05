@@ -33,7 +33,7 @@
                   {% for product in products %}
                     <tr>
                       <td>
-                        {{product.name}}
+                        <a href="/product?q={{product.id}}">{{product.name}}</a>
                       </td>
                       <td>
                           {{product.brand.name}}
